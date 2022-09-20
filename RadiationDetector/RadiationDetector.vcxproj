@@ -127,14 +127,19 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="AudioBuzzer.cpp" />
     <ClCompile Include="AudioBuzzerInterface.cpp" />
     <ClCompile Include="DetectorInterface.cpp" />
+    <ClCompile Include="ElectronicDisplay.cpp" />
     <ClCompile Include="ElectronicDisplayInterface.cpp" />
+    <ClCompile Include="main.cpp" />
     <ClCompile Include="RadiationDetector.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="AudioBuzzer.h" />
     <ClInclude Include="AudioBuzzerInterface.h" />
     <ClInclude Include="DetectorInterface.h" />
+    <ClInclude Include="ElectronicDisplay.h" />
     <ClInclude Include="ElectronicDisplayInterface.h" />
     <ClInclude Include="RadiationDetector.h" />
   </ItemGroup>

@@ -7,6 +7,6 @@ class AudioBuzzerMock :
     public AudioBuzzerInterface
 {
 public:
-    MOCK_METHOD(void, SoundAlarm, (), (override));
+    MOCK_METHOD(void, soundAlarm, (), (override));
 };
 

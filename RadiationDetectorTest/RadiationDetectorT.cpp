@@ -1,6 +1,8 @@
 #include "RadiationDetectorT.h"
 
-RadiationDetector::RadiationDetector()	
+RadiationDetectorT::RadiationDetectorT()	
 {
 	 auto audioPtr = std::make_shared<AudioBuzzerMock>();
 }
+
+

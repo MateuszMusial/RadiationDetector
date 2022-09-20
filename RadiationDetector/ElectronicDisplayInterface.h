@@ -4,6 +4,6 @@
 class ElectronicDisplayInterface
 {
 public:
-	virtual void printMessage(std::string input) = 0;
+	virtual void printMessage(bool isLeathal) = 0;
 };
 

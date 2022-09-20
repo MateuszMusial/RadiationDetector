@@ -4,6 +4,6 @@
 class AudioBuzzerInterface
 {
 public:
-	virtual void SoundAlarm()= 0;
+	virtual void soundAlarm(bool isleathal)= 0;
 };
 

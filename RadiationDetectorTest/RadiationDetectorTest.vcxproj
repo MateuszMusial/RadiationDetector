@@ -35,6 +35,7 @@
   <ItemGroup>
     <ClInclude Include="AudioBuzzerInterface.h" />
     <ClInclude Include="AudioBuzzerMock.h" />
+    <ClInclude Include="DetectorInterface.h" />
     <ClInclude Include="DetectorInterfaceMock.h" />
     <ClInclude Include="ElectronicDisplayInterface.h" />
     <ClInclude Include="ElectronicDisplayMock.h" />

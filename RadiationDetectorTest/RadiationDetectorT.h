@@ -6,10 +6,10 @@
 #include "../RadiationDetectorTest/ElectronicDisplayMock.h"
 
 
-class RadiationDetector : public DetectorInterface
+class RadiationDetectorT : public DetectorInterface
 {
 public:
-	RadiationDetector();
+	RadiationDetectorT();
 	AudioBuzzerMock* audioPtr;
 	DetectorInterfaceMock* detectorPtr;
 	ElectronicDisplayMock* displayPtr;
